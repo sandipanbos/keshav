@@ -1,0 +1,328 @@
+<!DOCTYPE html>
+<html lang="en" class="scroll-smooth">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Keshav Chandra Mazumdar | Saviour of Forces</title>
+
+  <!-- Google Fonts: Cinzel & Oswald for commanding military headers, Lora & Inter for crisp readability -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@600;700;800&family=Inter:wght@400;500;600&family=Lora:ital,wght@0,400;0,500;0,600;1,400&family=Oswald:wght@500;600;700&display=swap" rel="stylesheet" />
+
+  <!-- Tailwind CSS -->
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script>
+    tailwind.config = {
+      theme: {
+        extend: {
+          colors: {
+            camoDark: '#1d2419',
+            camoOlive: '#2b3326',
+            camoMid: '#3a4532',
+            camoKhaki: '#c4b592',
+            camoSand: '#dfd5bc',
+            brassGold: '#d4af37',
+            brassLight: '#ebd070',
+            parchment: '#f2efe9',
+          },
+          fontFamily: {
+            cinzel: ['Cinzel', 'serif'],
+            oswald: ['Oswald', 'sans-serif'],
+            lora: ['Lora', 'serif'],
+            inter: ['Inter', 'sans-serif'],
+          },
+        },
+      },
+    };
+  </script>
+
+  <style>
+    /* Tactical Military Camouflage SVG Background Pattern */
+    body {
+      background-color: #1d2419;
+      background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='320' height='320' viewBox='0 0 320 320'%3E%3Crect width='320' height='320' fill='%231d2419'/%3E%3Cpath d='M-20 40 C30 10, 90 15, 130 55 C165 90, 145 145, 95 160 C45 175, -10 140, -20 90 Z' fill='%23262f21'/%3E%3Cpath d='M180 -10 C240 -25, 310 15, 330 70 C345 115, 295 155, 240 140 C190 125, 140 50, 180 -10 Z' fill='%232b3326'/%3E%3Cpath d='M70 190 C130 175, 195 200, 215 255 C230 295, 175 335, 115 320 C60 305, 25 235, 70 190 Z' fill='%23262f21'/%3E%3Cpath d='M235 165 C285 155, 335 190, 330 245 C325 295, 270 315, 225 290 C185 265, 195 175, 235 165 Z' fill='%23333d2c'/%3E%3Cpath d='M110 85 C145 75, 175 105, 165 135 C155 165, 115 165, 95 140 C80 120, 85 92, 110 85 Z' fill='%233b3626' opacity='0.55'/%3E%3Cpath d='M20 265 C55 250, 95 275, 85 310 C75 340, 25 340, 5 315 C-10 295, -5 275, 20 265 Z' fill='%233b3626' opacity='0.5'/%3E%3C/svg%3E");
+      background-attachment: fixed;
+    }
+
+    /* Subtle Tactical Grid Overlay */
+    .tactical-grid {
+      background-image: linear-gradient(to right, rgba(212, 175, 55, 0.04) 1px, transparent 1px),
+                        linear-gradient(to bottom, rgba(212, 175, 55, 0.04) 1px, transparent 1px);
+      background-size: 36px 36px;
+    }
+
+    /* Desktop Text Wrapping around the Photograph */
+    @media (min-width: 768px) {
+      .wrapped-photo-container {
+        float: right;
+        width: 46%;
+        max-width: 470px;
+        margin-left: 2.25rem;
+        margin-bottom: 1.5rem;
+        margin-top: 0.35rem;
+      }
+      .wrapped-photo-container.float-left-mode {
+        float: left;
+        margin-left: 0;
+        margin-right: 2.25rem;
+      }
+    }
+
+    /* Drop cap for editorial authority */
+    .editorial-dropcap::first-letter {
+      float: left;
+      font-family: 'Cinzel', serif;
+      font-size: 3.6rem;
+      line-height: 0.85;
+      padding-top: 0.2rem;
+      padding-right: 0.65rem;
+      padding-bottom: 0.1rem;
+      color: #d4af37;
+      font-weight: 700;
+    }
+  </style>
+</head>
+<body class="text-parchment font-lora antialiased selection:bg-brassGold selection:text-camoDark">
+
+  <!-- Top Classification / Status Bar -->
+  <div class="bg-camoDark/95 border-b border-brassGold/30 text-camoKhaki text-xs font-oswald tracking-[0.2em] uppercase py-2 px-4">
+    <div class="max-w-6xl mx-auto flex flex-wrap items-center justify-between gap-2">
+      <div class="flex items-center gap-2">
+        <span class="inline-block w-2 h-2 rounded-full bg-brassGold animate-pulse"></span>
+        <span>Official Dossier &bull; National &amp; Global Force Protection</span>
+      </div>
+      <div class="text-brassGold/90">
+        Honored as &ldquo;Saviour of Forces&rdquo;
+      </div>
+    </div>
+  </div>
+
+  <!-- Hero / Header Banner -->
+  <header class="relative overflow-hidden border-b-2 border-brassGold/50 bg-gradient-to-b from-camoDark/90 via-camoOlive/90 to-camoDark/95 tactical-grid">
+    <!-- Decorative Corner Brackets -->
+    <div class="hidden sm:block absolute top-4 left-4 w-8 h-8 border-t-2 border-l-2 border-brassGold/60 rounded-tl-md"></div>
+    <div class="hidden sm:block absolute top-4 right-4 w-8 h-8 border-t-2 border-r-2 border-brassGold/60 rounded-tr-md"></div>
+    <div class="hidden sm:block absolute bottom-4 left-4 w-8 h-8 border-b-2 border-l-2 border-brassGold/60 rounded-bl-md"></div>
+    <div class="hidden sm:block absolute bottom-4 right-4 w-8 h-8 border-b-2 border-r-2 border-brassGold/60 rounded-br-md"></div>
+
+    <div class="max-w-5xl mx-auto px-5 sm:px-8 py-12 sm:py-16 text-center relative z-10">
+      <!-- Emblem / Shield Icon -->
+      <div class="inline-flex items-center justify-center w-16 h-16 rounded-full bg-camoDark border-2 border-brassGold shadow-lg shadow-black/50 mb-5">
+        <svg class="w-8 h-8 text-brassGold" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round">
+          <path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z" />
+          <polygon points="12 7 13.5 10.2 17 10.6 14.5 13 15.1 16.5 12 14.8 8.9 16.5 9.5 13 7 10.6 10.5 10.2 12 7" fill="currentColor" />
+        </svg>
+      </div>
+
+      <p class="font-oswald text-brassGold tracking-[0.25em] text-xs sm:text-sm uppercase mb-3">
+        Commemorative Tribute &amp; Service Record
+      </p>
+
+      <h1 class="font-cinzel text-3xl sm:text-5xl md:text-6xl font-extrabold text-parchment tracking-wide drop-shadow-[0_3px_6px_rgba(0,0,0,0.85)] leading-tight">
+        KESHAV CHANDRA MAZUMDAR
+      </h1>
+
+      <div class="w-32 h-1 bg-gradient-to-r from-transparent via-brassGold to-transparent mx-auto my-5 rounded-full"></div>
+
+      <p class="font-oswald text-base sm:text-xl md:text-2xl text-camoKhaki tracking-wider uppercase font-medium max-w-3xl mx-auto leading-relaxed">
+        Global Intelligence &amp; Force Protection Instructor &bull; Officer &bull;
+        <span class="text-brassLight font-semibold">&ldquo;Saviour of Forces&rdquo;</span>
+        <span class="block text-sm sm:text-base text-camoSand/90 mt-1 font-normal tracking-widest">
+          (Titled by General V. K. Singh)
+        </span>
+      </p>
+    </div>
+  </header>
+
+  <!-- Main Content Area -->
+  <main class="max-w-5xl mx-auto px-4 sm:px-8 py-10 sm:py-14">
+
+    <!-- Prominent Quote / Citation Ribbon -->
+    <section aria-label="Official Citation" class="mb-10 bg-camoDark/90 border border-brassGold/50 rounded-xl p-6 sm:p-8 shadow-2xl relative overflow-hidden">
+      <div class="absolute inset-y-0 left-0 w-1.5 bg-brassGold"></div>
+      <div class="flex flex-col md:flex-row items-center justify-between gap-6">
+        <div class="text-center md:text-left">
+          <span class="inline-block px-3 py-1 rounded-full bg-brassGold/15 border border-brassGold/40 text-brassGold font-oswald text-xs tracking-[0.2em] uppercase mb-2">
+            Distinguished Honor Bestowed
+          </span>
+          <blockquote class="font-cinzel text-xl sm:text-2xl md:text-3xl font-bold text-parchment tracking-wide">
+            &ldquo;Saviour of Forces&rdquo;
+          </blockquote>
+          <p class="font-inter text-sm sm:text-base text-camoKhaki mt-1">
+            Conferred in recognition of extraordinary tactical leadership, intelligence warfare innovation, and unwavering devotion to the protection of armed forces personnel.
+          </p>
+        </div>
+        <div class="shrink-0 text-center md:text-right border-t md:border-t-0 md:border-l border-brassGold/30 pt-4 md:pt-0 md:pl-6">
+          <p class="font-oswald text-sm uppercase tracking-widest text-brassGold">Conferred By</p>
+          <p class="font-cinzel text-lg sm:text-xl font-bold text-parchment mt-0.5">General V. K. Singh</p>
+          <p class="font-inter text-xs text-camoKhaki mt-0.5">Former Chief of the Army Staff &amp; Hon&rsquo;ble Governor</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- Primary Biographical Article with Wrapped Photograph -->
+    <article class="bg-camoOlive/92 backdrop-blur-sm border border-brassGold/40 rounded-2xl p-6 sm:p-10 md:p-12 shadow-[0_20px_50px_rgba(0,0,0,0.65)]">
+
+      <!-- Section Heading & Alignment Toggle (Optional helpful control for viewing left/right wrap) -->
+      <div class="flex flex-wrap items-center justify-between gap-4 border-b border-brassGold/30 pb-5 mb-8">
+        <div>
+          <span class="font-oswald text-xs tracking-[0.22em] text-brassGold uppercase block">Biography &amp; Tactical Legacy</span>
+          <h2 class="font-cinzel text-2xl sm:text-3xl font-bold text-parchment mt-1">
+            A Life Dedicated to Protection &amp; Duty
+          </h2>
+        </div>
+
+        <!-- Subtle Alignment Switcher for Desktop Preview -->
+        <div class="hidden md:flex items-center gap-2 bg-camoDark/80 border border-brassGold/30 rounded-lg p-1 font-inter text-xs">
+          <span class="text-camoKhaki px-2">Photo Align:</span>
+          <button id="alignRightBtn" type="button" onclick="setPhotoAlignment('right')" class="px-2.5 py-1 rounded bg-brassGold text-camoDark font-semibold transition">
+            Right
+          </button>
+          <button id="alignLeftBtn" type="button" onclick="setPhotoAlignment('left')" class="px-2.5 py-1 rounded text-camoKhaki hover:text-parchment transition">
+            Left
+          </button>
+        </div>
+      </div>
+
+      <!-- CLEARFIX WRAPPER FOR TEXT WRAPPING AROUND THE FLOATED PHOTOGRAPH -->
+      <div class="flow-root text-base sm:text-[1.08rem] leading-[1.85] text-parchment/95 space-y-6">
+
+        <!-- Floated Photograph Frame (Text wraps tightly around this container on desktop) -->
+        <figure id="photoFigure" class="wrapped-photo-container bg-camoDark border-2 border-brassGold/70 rounded-xl p-3 shadow-2xl">
+          <div class="relative overflow-hidden rounded-lg border border-brassGold/30 bg-camoDark">
+            <!--
+              ==========================================================================
+              GITHUB UPLOAD INSTRUCTION:
+              Save your commemorative photograph as "photo.jpg" in the exact same
+              folder as this "index.html" file when uploading to your GitHub repository.
+              ==========================================================================
+            -->
+            <img
+              id="tributePhoto"
+              src="photo.jpg"
+              alt="Keshav Chandra Mazumdar - Commemorative Memoir and Tactical Service"
+              class="w-full h-auto object-cover rounded-md block"
+              onerror="this.onerror=null; this.src='https://placehold.co/800x600/1d2419/d4af37?text=Place+photo.jpg+Next+to+index.html';"
+            />
+          </div>
+
+          <figcaption class="mt-3 pt-2.5 border-t border-brassGold/25 text-center">
+            <p class="font-cinzel text-sm font-bold text-brassGold tracking-wide">
+              Keshav Chandra Mazumdar
+            </p>
+            <p class="font-inter text-xs text-camoKhaki mt-1 leading-relaxed">
+              Commemorative Memoir, Global Endorsements &amp; Tactical Service Record &mdash; Honoring 30 Years of Dedicated Service.
+            </p>
+          </figcaption>
+        </figure>
+
+        <!-- Paragraph 1: Global Standing & Classified Service -->
+        <p class="editorial-dropcap">
+          <strong class="text-brassLight font-semibold">Keshav Chandra Mazumdar</strong> is a world-renowned global instructor and officer who stands at the forefront of modern intelligence, counter-terrorism, and force protection operations. Currently engaged in highly sensitive, vital national assignments across India, the exact nature and operational parameters of his ongoing missions remain strictly classified and cannot be disclosed on this public platform. Across international defense circles, his strategic doctrine—utilizing intelligence directly as combat—has reshaped how elite units safeguard personnel in high-threat environments.
+        </p>
+
+        <!-- Paragraph 2: Lineage & Uncompromising Character -->
+        <p>
+          Hailing from a distinguished, high-ranking, and deeply educated family, Keshav Chandra Mazumdar is guided by an uncompromising moral code that sets him apart from ordinary men. His empathy and sense of responsibility toward human dignity are absolute: he is a man who cannot eat or sleep if an assault or grave injustice occurs in his city. Whenever a terrorist crisis or ambush threatens troops in Kashmir or anywhere else across the nation, he immerses himself completely—spending relentless days and sleepless nights formulating exhaustive strategies and tactics of <strong class="text-camoSand">force protection</strong> to ensure that soldiers return home safely.
+        </p>
+
+        <!-- Paragraph 3: Selfless Devotion & Philanthropy -->
+        <p>
+          His sole motto in life is singular and unwavering: <em class="text-brassLight font-medium">the protection of others</em>. Completely detached from personal wealth or material comfort, he keeps not even the money for a cup of tea for himself—yet through quiet, selfless generosity, he has donated more than <strong class="text-brassLight font-semibold">one crore rupees</strong> to uplift the poor, the suffering, and the needy.
+        </p>
+
+        <!-- Paragraph 4: Command & Global Respect -->
+        <p>
+          Respected far and wide across the highest echelons of national and international leadership—from decorated Admirals and Generals to senior Cabinet Ministers—he has commanded committees of the <strong class="text-camoSand">Anti-Terrorism Accreditation Board (ATAB)</strong>, with senior Generals and Admirals serving directly under his leadership. Endorsed by defense leaders across continents, he is truly one of a kind—a rare and monumental figure in modern military and intelligence history.
+        </p>
+
+        <!-- Paragraph 5: Extraordinary Origin & Destiny -->
+        <p>
+          Even the beginning of his life was marked by extraordinary providence. He was born in a military hospital high in the snow-clad ice mountains of Kashmir during the simultaneous occurrence of an earthquake and a solar eclipse—surviving two critical days inside an incubator after the violent tremor threw him from the delivery table. Where his remarkable journey will ultimately take him, only God knows, for his entire existence is consecrated solely to the service of soldiers, the poor, the needy, and even the compassionate protection of birds and animals.
+        </p>
+
+      </div>
+
+      <!-- Core Pillars Summary Cards below the wrapped text -->
+      <div class="mt-12 pt-8 border-t border-brassGold/30 grid grid-cols-1 sm:grid-cols-3 gap-5">
+        <div class="bg-camoDark/85 border border-brassGold/35 rounded-xl p-5">
+          <div class="font-oswald text-xs uppercase tracking-[0.2em] text-brassGold mb-1">Supreme Command</div>
+          <h3 class="font-cinzel text-lg font-bold text-parchment mb-2">ATAB Leadership</h3>
+          <p class="font-inter text-sm text-camoKhaki leading-relaxed">
+            Commanded Anti-Terrorism Accreditation Board committees with senior Admirals and Generals serving under his strategic direction.
+          </p>
+        </div>
+
+        <div class="bg-camoDark/85 border border-brassGold/35 rounded-xl p-5">
+          <div class="font-oswald text-xs uppercase tracking-[0.2em] text-brassGold mb-1">Selfless Sacrifice</div>
+          <h3 class="font-cinzel text-lg font-bold text-parchment mb-2">Over &#8377;1 Crore Donated</h3>
+          <p class="font-inter text-sm text-camoKhaki leading-relaxed">
+            Lives with zero personal indulgence—not keeping even tea money for himself—while dedicating over one crore rupees to the poor and needy.
+          </p>
+        </div>
+
+        <div class="bg-camoDark/85 border border-brassGold/35 rounded-xl p-5">
+          <div class="font-oswald text-xs uppercase tracking-[0.2em] text-brassGold mb-1">Sacred Creed</div>
+          <h3 class="font-cinzel text-lg font-bold text-parchment mb-2">Protection of All Life</h3>
+          <p class="font-inter text-sm text-camoKhaki leading-relaxed">
+            Born in the ice mountains of Kashmir amidst an earthquake and solar eclipse; devoted to soldiers, humanity, birds, and animals.
+          </p>
+        </div>
+      </div>
+    </article>
+
+    <!-- GitHub Deployment Helper Notice (Clean & Discreet) -->
+    <aside class="mt-8 bg-camoDark/80 border border-camoKhaki/25 rounded-xl p-4 sm:p-5 flex flex-col sm:flex-row items-start sm:items-center justify-between gap-4 text-xs font-inter text-camoKhaki">
+      <div class="flex items-start gap-3">
+        <svg class="w-5 h-5 text-brassGold shrink-0 mt-0.5" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24">
+          <path stroke-linecap="round" stroke-linejoin="round" d="M13 16h-1v-4h-1m1-4h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z" />
+        </svg>
+        <div>
+          <strong class="text-parchment">GitHub Pages Deployment Ready:</strong> Upload this file as <code class="text-brassGold bg-black/40 px-1.5 py-0.5 rounded">index.html</code> alongside your commemorative image renamed to <code class="text-brassGold bg-black/40 px-1.5 py-0.5 rounded">photo.jpg</code> in the root of your repository.
+        </div>
+      </div>
+    </aside>
+
+  </main>
+
+  <!-- Dignified Military Footer -->
+  <footer class="bg-camoDark border-t-2 border-brassGold/40 mt-12 py-8 px-4 text-center">
+    <div class="max-w-4xl mx-auto">
+      <p class="font-cinzel text-base sm:text-lg font-bold text-brassGold tracking-wider uppercase">
+        Keshav Chandra Mazumdar
+      </p>
+      <p class="font-oswald text-xs sm:text-sm text-camoKhaki tracking-[0.2em] uppercase mt-1">
+        Global Instructor &bull; Force Protection Pioneer &bull; Saviour of Forces
+      </p>
+      <div class="w-20 h-px bg-brassGold/30 mx-auto my-4"></div>
+      <p class="font-inter text-xs text-camoKhaki/75">
+        Dedicated to the Armed Forces, National Security, and the Protection of Every Living Being.
+      </p>
+    </div>
+  </footer>
+
+  <!-- Interactive Script for Left/Right Photo Wrapping Toggle -->
+  <script>
+    function setPhotoAlignment(side) {
+      const figure = document.getElementById('photoFigure');
+      const rightBtn = document.getElementById('alignRightBtn');
+      const leftBtn = document.getElementById('alignLeftBtn');
+
+      if (side === 'left') {
+        figure.classList.add('float-left-mode');
+        leftBtn.classList.add('bg-brassGold', 'text-camoDark', 'font-semibold');
+        leftBtn.classList.remove('text-camoKhaki');
+        rightBtn.classList.remove('bg-brassGold', 'text-camoDark', 'font-semibold');
+        rightBtn.classList.add('text-camoKhaki');
+      } else {
+        figure.classList.remove('float-left-mode');
+        rightBtn.classList.add('bg-brassGold', 'text-camoDark', 'font-semibold');
+        rightBtn.classList.remove('text-camoKhaki');
+        leftBtn.classList.remove('bg-brassGold', 'text-camoDark', 'font-semibold');
+        leftBtn.classList.add('text-camoKhaki');
+      }
+    }
+  </script>
+</body>
+</html>
